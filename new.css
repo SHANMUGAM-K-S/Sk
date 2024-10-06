@@ -1,0 +1,77 @@
+/*# sourceMappingURL=style.css.map */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Monsterrat", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+#head {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 1s;
+  background: rgb(3, 3, 66);
+  padding: 23px 13%;
+  text-decoration: none;
+  animation: backgroundChange 10s infinite;
+}
+
+#head img {
+  height: 65px;
+  width: 65px;
+  align-items: center;
+  margin-top: -30px;
+}
+#head h6 {
+  color: rgb(216, 211, 211);
+  font-weight: 800;
+  font-size: 12px;
+  text-align: center;
+  margin-left: -20px;
+}
+.navbar {
+  display: flex;
+}
+.navbar a {
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  padding: 10px 22px;
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+.navbar a:hover {
+  color: red;
+}
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+.header-icons i {
+  margin-left: 10px;
+  font-size: 24px;
+  color: rgb(10, 34, 213);
+  margin-right: 16px;
+}
+.header-icons i:hover {
+  transform: scale(1.5);
+  color: red;
+}
+#menu-icon {
+  font-size: 30px;
+  color: blue;
+  z-index: 10001;
+  cursor: pointer;
+  display: none;
+}
+section {
+  padding: 90px 0;
+}
